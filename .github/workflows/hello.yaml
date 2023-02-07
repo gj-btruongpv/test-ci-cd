@@ -1,9 +1,9 @@
-    name:hello
+    name: hello
     on:
         push:
-          branches:[master]
+          branches: [master]
     jobs:
       build:
         runs-on: windows
         steps:
-          - rin: echo Hellow rold
+          - run: echo TestCICD
